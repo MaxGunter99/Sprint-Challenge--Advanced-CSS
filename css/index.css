@@ -180,6 +180,21 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+.background {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 780px;
+  height: 190px;
+  background-image: url("/Users/voidchaser/Lambda/Sprint-Challenge--Advanced-CSS/img/main-header.png");
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: 50% 15%;
+  background-repeat: no-repeat;
+}
+.invisible {
+  visibility: hidden;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -231,6 +246,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  color: white;
+  background-color: black;
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.home .walk .walk-text .btn:hover {
+  color: black;
+  background-color: white;
 }
 .home .walk .walk-img {
   width: 46%;
