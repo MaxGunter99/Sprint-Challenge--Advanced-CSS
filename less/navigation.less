@@ -2,6 +2,15 @@
 
 //navigation title here
 
+.navigation {  
+    background-color: white;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-bottom: 2px solid black;
+}
+
 h1 {
    
     display: flex;
@@ -17,10 +26,11 @@ nav{
     margin: 0 auto;
     font-size: 1.5em;
 
-     //mobile
-     @media ( max-width: 500px ) {
-        width: auto;
-        justify-content: space-between;
+    //mobile
+    @media ( max-width: 500px ) {
+    width: auto;
+    justify-content: space-between;
+    font-size: 1.3em;
     }
     
     a {
@@ -47,17 +57,20 @@ nav{
     justify-content: center;
     margin: 0 auto;
     width: 780px;
-    height: 190px;
+    height: 285px;
     background-image: url("/Users/voidchaser/Lambda/Sprint-Challenge--Advanced-CSS/img/main-header.png");
     background-attachment: fixed;
     background-size: auto;
     background-position: 50% 15%;
     background-repeat: no-repeat;
+    border-radius: 0 0 50px 50px;
 
      //mobile
      @media ( max-width: 500px ) {
         margin: 0 auto;
         width: 400px;
+        height: 285px;
+        background-size: auto;
     }
 
     
