@@ -16,11 +16,22 @@ nav{
     width: 800px;
     margin: 0 auto;
     font-size: 1.5em;
+
+     //mobile
+     @media ( max-width: 500px ) {
+        width: auto;
+        justify-content: space-between;
+    }
     
     a {
         color: rgb(56, 56, 56);
         padding: 20px;
         text-decoration: none;
+
+        //mobile
+        @media ( max-width: 500px ) {
+            margin: 0 auto;
+        }
 
         &:hover {
             text-decoration: underline;
@@ -42,6 +53,12 @@ nav{
     background-size: auto;
     background-position: 50% 15%;
     background-repeat: no-repeat;
+
+     //mobile
+     @media ( max-width: 500px ) {
+        margin: 0 auto;
+        width: 400px;
+    }
 
     
 }

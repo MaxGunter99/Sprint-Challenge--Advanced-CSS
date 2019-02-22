@@ -5,4 +5,25 @@
     font-size: 4em;
 }
 
-@mobile: ~'( max-width: 500px )';
+//button styling
+.button {
+    color: white;
+    background-color: black;
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+    @media ( max-width: 500px ) {
+        width: 100%;
+      }
+
+    &:hover {
+        color: black;
+        background-color: white;
+    }
+}
